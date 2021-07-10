@@ -1,0 +1,152 @@
+/* resets all */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* NAvbar Design */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* logo design */
+
+#logo {
+    margin: 16px 16px;
+}
+
+#logo img {
+    height: 40px;
+}
+
+
+/* navigation DEsign */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 4px 16px;
+    border-radius: 20px;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* /Hero section */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+#hero::before {
+    content: "";
+    background: url("../dark-wallpapers.webp")no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.87;
+    top: 0px;
+    left: 0px;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+}
+
+#hero h1 {
+    font-size: 2.8rem;
+    padding: 16px;
+    color: white;
+}
+
+#hero p {
+    font-size: 1rem;
+    color: white;
+}
+
+
+/* Buttom */
+
+.btn {
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    padding: 4px 16px;
+    margin-top: 16px;
+    color: white;
+    background-color: rgb(87, 85, 85);
+    cursor: pointer;
+}
+
+
+/* Service dsection start */
+
+#Service-continer {
+    padding: 16px 100px;
+}
+
+#Service-continer h1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+#service {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.s-items {
+    border: 3px solid brown;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    margin: 16px 16px;
+    padding: 16px;
+}
+
+.s-items img {
+    height: 150px;
+    width: 150px
+}
+
+.s-items h2 {
+    text-align: center;
+    padding: 12px;
+}
+
+.s-items p {
+    text-align: center;
+}
