@@ -150,3 +150,82 @@
 .s-items p {
     text-align: center;
 }
+
+
+/* Contect us */
+
+#Contect {
+    position: relative;
+    height: 500px;
+}
+
+#Contect::before {
+    content: "";
+    background-color: rgb(11, 11, 36);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.87;
+    z-index: -1;
+}
+
+#Contect h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+    padding: 16px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 9, 22);
+    margin: 0px 300px;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.contect-items {
+    margin: 8px 0px;
+}
+
+.contect-items label {
+    font-size: 20px;
+    color: white;
+}
+
+.contect-items input {
+    border: 3px solid rgb(58, 54, 54);
+    border-radius: 2px;
+    height: 30px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+#massage {
+    height: 70px;
+    margin-right: 18px;
+}
+
+#massage1 {
+    height: 70px;
+    margin-right: 4px;
+}
+
+
+/* footer section */
+
+footer {
+    display: flex;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
