@@ -11,7 +11,7 @@
 #navbar {
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
 }
 
 #navbar::before {
@@ -123,6 +123,7 @@
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .s-items {
