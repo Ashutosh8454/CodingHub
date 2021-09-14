@@ -73,7 +73,7 @@
 
 #hero::before {
     content: "";
-    background: url("../dark-wallpapers.webp")no-repeat center center/cover;
+    background: url("../img/dark-wallpapers.webp")no-repeat center center/cover;
     position: absolute;
     opacity: 0.87;
     top: 0px;
