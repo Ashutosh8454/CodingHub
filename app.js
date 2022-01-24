@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require("path");
 const port = 80;
+// mongoose.connect('mongodb://localhost/ashutoshkart', { useNewUrlParser: true });
 
 const app = express();
 app.use('/css', express.static('css'));
